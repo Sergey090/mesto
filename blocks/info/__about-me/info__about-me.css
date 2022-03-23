@@ -1,0 +1,24 @@
+.info__about-me {
+    width: 100%;
+    max-width: 500px;
+    grid-area: about-me;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .info__about-me {
+        max-width: 250px;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+    }
+}

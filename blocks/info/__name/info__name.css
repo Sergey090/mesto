@@ -1,0 +1,23 @@
+.info__name {
+    width: 100%;
+    max-width: 500px;
+    grid-area: name;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .info__name {
+        font-size: 27px;
+        line-height: 33px;
+        max-width: 250px;
+    }
+}
