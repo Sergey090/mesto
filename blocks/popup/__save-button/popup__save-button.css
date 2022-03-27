@@ -1,4 +1,4 @@
-.form__button {
+.popup__save-button {
     width: 100%;
     min-height: 50px;
     margin: 0;
@@ -6,7 +6,7 @@
     border-radius: 2px;
     color: white;
     background-color: black;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -16,12 +16,12 @@
     transition: opacity 0.5s linear;
 }
 
-.form__button:hover {
+.popup__save-button:hover {
     opacity: .8;
 }
 
 @media screen and (max-width: 320px) {
-    .form__button {
+    .popup__save-button {
         font-size: 14px;
         line-height: 17px;
         min-height: 46px;

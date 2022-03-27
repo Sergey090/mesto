@@ -1,4 +1,4 @@
-.card__heart {
+.card__like-button {
     width: 22px;
     height: 19px;
     background-image: url(../../../images/heart.svg);
@@ -6,8 +6,9 @@
     background-size: 100%;
     transition: opacity 0.5s linear;
     cursor: pointer;
+    border: none;
 }
 
-.card__heart:hover {
+.card__like-button:hover {
     opacity: .5;
 }

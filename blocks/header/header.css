@@ -3,15 +3,18 @@
     max-width: 880px;
     min-height: 74px;
     margin: 0 auto;
-    padding: 45px 0 40px;
-    display: grid;
-    grid-template-rows: repeat(2, auto);
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(84, 84, 84, .7);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1023px) {
+    .header {
+        max-width: 596px;
+    }
+}
+
+@media screen and (max-width: 767px) {
     .header {
         min-height: 56px;
-        padding: 28px 0 42px;
     }
-
 }
