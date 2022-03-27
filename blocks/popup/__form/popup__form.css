@@ -10,7 +10,7 @@
     display: flex;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
     .popup__form {
         max-width: 282px;
         min-height: 322px;
