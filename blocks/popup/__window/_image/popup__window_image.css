@@ -1,0 +1,6 @@
+.popup__window_image {
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
